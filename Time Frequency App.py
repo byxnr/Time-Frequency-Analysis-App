@@ -27,7 +27,7 @@ os.makedirs(out_figs, exist_ok=True)
 report = mne.Report(title='Time-Frequency Analysis Report')
 
 # Load epochs
-epochs = mne.read_epochs(epoch_fname, proj=True)
+#epochs = mne.read_epochs(epoch_fname, proj=True)
 
 # Define frequency bands and compute time-frequency representations
 freqs = np.logspace(*np.log10([5, 30]), num=8)
