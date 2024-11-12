@@ -9,18 +9,13 @@ from mne.time_frequency import tfr_morlet
 mne.set_log_level('error')
 
 # Define paths
-data_path = os.path.expanduser("C:/Users/bndmk/Downloads/sample_introduction/data")
-epoch_fname = os.path.join(data_path, "output/out_dir/meg-epo.fif")
 
-'''
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 # Load brainlife config.json
 with open(__location__+'/config.json') as config_json:
     config = json.load(config_json)
-
-'''
 
 # Define output directories
 out_dir = os.path.join(os.getcwd(), 'out_dir')
